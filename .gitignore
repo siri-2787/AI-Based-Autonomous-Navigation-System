@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+outputs/screenshots/*.png
+outputs/replays/*.json
+.DS_Store
+*.egg-info/
