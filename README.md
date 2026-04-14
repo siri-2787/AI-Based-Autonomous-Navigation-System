@@ -188,7 +188,7 @@ Intelligent-Autonomous-Navigation-System/
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python **3.11** (recommended — pygame 2.5.2 has pre-built wheels for 3.11)
+- Python **3.11** 
 - pip
 
 ### Step 1 — Clone
