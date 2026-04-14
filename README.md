@@ -2,25 +2,29 @@
 
 
 
-# 🤖   AI-Based Autonomous Navigation System
+# 🤖 AI-Based Autonomous Navigation System
 
-### AI-Powered Path Planning with Real-Time Obstacle Avoidance
+### AI-powered path planning with real-time obstacle avoidance and intelligent decision-making
 
-![Python](https://img.shields.io/badge/PYTHON-3.11+-blue?style=for-the-badge&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/PYGAME-2.5.2-green?style=for-the-badge&logo=python&logoColor=white)
-![Algorithm](https://img.shields.io/badge/A*%20%7C%20DIJKSTRA%20%7C%20BFS%20%7C%20GREEDY-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge)
-![License](https://img.shields.io/badge/LICENSE-MIT-yellow?style=for-the-badge)
+---
 
-![Algorithms](https://img.shields.io/badge/Algorithms-4-blueviolet)
-![Replanning](https://img.shields.io/badge/Real--Time%20Replanning-✓-green)
-![FogOfWar](https://img.shields.io/badge/Fog%20of%20War-✓-blue)
-![Energy](https://img.shields.io/badge/Energy%20System-✓-orange)
-![Replay](https://img.shields.io/badge/Save%20%26%20Replay-✓-red)
+## ⚙️ Tech Stack
+- Python 3.11.9
+- Pygame 2.6.1
 
-**A\* Path Planning · Dijkstra · BFS · Greedy Best-First · Dynamic Obstacles · Fog of War · Energy System · Save & Replay**
+---
 
-[🚀 Quick Start](#-quick-start) • [📊 Features](#-features) • [🏗️ Architecture](#%EF%B8%8F-architecture) • [▶️ Run Demo](#%EF%B8%8F-how-to-run) • [📸 Screenshots](#-screenshots)
+## 🧠 Algorithms & Features
+- A* Path Planning  
+- Dijkstra’s Algorithm  
+- Breadth-First Search (BFS)  
+- Greedy Best-First Search  
+- Dynamic Obstacle Handling  
+- Fog of War Simulation  
+- Energy Management System  
+- Save & Replay System
+
+
 
 </div>
 
@@ -30,7 +34,6 @@
 
 ** AI-Based Autonomous Navigation System** is a production-quality simulation of an AI robot navigating a dynamic obstacle-filled environment. It supports **4 pathfinding algorithms**, **real-time replanning**, **fog of war**, a **fuel/energy system**, **checkpoint navigation**, and a full **save & replay system** — all running at 60 FPS in a custom Pygame simulation.
 
-> Built as a Final Year Project at **Netaji Subhash Engineering College, Kolkata** to demonstrate AI, algorithms, and software architecture skills for placement and internship applications.
 
 ---
 
@@ -60,27 +63,43 @@ This project simulates all of the above in a fully interactive virtual environme
 
 ## ✨ Features
 
-### 🧠 4 Pathfinding Algorithms (switchable via dropdown)
-| Algorithm | Strategy | Optimal? | Speed |
-|---|---|---|---|
-| **A\*** | g(n) + w·h(n) — weighted heuristic | ✅ Near-optimal | ⚡ Fast |
-| **Dijkstra** | Uniform cost search | ✅ Optimal | 🐢 Slow |
-| **BFS** | Level-by-level expansion | ✅ Hop-optimal | 🐢 Slow |
-| **Greedy** | Pure heuristic, goal-directed | ❌ Sub-optimal | ⚡ Fastest |
 
-### ⚡ Real-Time Replanning
-When a dynamic obstacle moves onto the planned path, the agent **instantly replans** without freezing the simulation.
+### 🧠 Intelligent Pathfinding
+- A* (weighted heuristic optimal planner)
+- Dijkstra (guaranteed optimal shortest path)
+- BFS (level-order exploration)
+- Greedy Best-First (fast heuristic navigation)
 
-### 🎮 Full Simulation Features
-- **Moving obstacles** — 6 bouncing dynamic obstacles
-- **Checkpoints** — agent visits 2 waypoints before reaching the goal
-- **Energy / Fuel system** — bar depletes per move, agent halts at zero
-- **Fog of War** — hidden cells revealed progressively as agent moves
-- **Heatmap mode** — visualise cumulative A\* exploration across all replans
-- **Click to paint** — add/remove obstacles live by clicking the grid
-- **Speed slider** — control agent speed in real time
-- **Save & Replay** — record a run to JSON, replay it later
-- **Multi-algorithm comparison** — run all 4 at once, compare metrics
+### ⚡ Real-Time Capabilities
+- Dynamic obstacle avoidance
+- Instant replanning when path is blocked
+- Live simulation at 60 FPS
+
+### 🌍 Environment Simulation
+- Procedurally generated grid world
+- Moving obstacles
+- Click-to-edit terrain
+- Fog of War (sensor-limited vision)
+
+### 🔋 Agent Systems
+- Energy/Fuel system
+- Multi-checkpoint navigation
+- Step tracking and replanning counter
+
+### 📊 Visualization & Analytics
+- Heatmap exploration visualization
+- Algorithm performance comparison table
+- Efficiency scoring system (custom metric)
+
+### 💾 Persistence Features
+- Save simulation runs (JSON)
+- Replay system for past runs
+- Screenshot capture
+
+### 🎮 Interactive Controls
+- Dropdown algorithm switching
+- Speed control slider
+- Toggle grid / fog / heatmap / checkpoints
 
 ---
 
@@ -272,6 +291,7 @@ python main.py
 ## 👤 Author
 
 **P SIRI REDDY**
+
 B.Tech CSE, CBIT
 
 ---
@@ -282,6 +302,4 @@ MIT License — free to use, modify, and distribute with attribution.
 
 ---
 
-<div align="center">
-⭐ If this project helped you, please give it a star!
-</div>
+
